@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.header-list{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 30px;
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-image{
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +162,95 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Section */
+
+.about-intro{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+.trace-section{
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.trace-1{
+    width: 48%;
+}
+
+.trace-2{
+    width: 48%;
+}
+
+.trace-3{
+    width: 48%;
+    margin-top: 30px;
+}
+
+.trace-4{
+    width: 48%;
+    margin-top: 30px;
+}
+
+.learn-more{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+.bottom-container{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .box .one{
+    background: teal;
+}
+
+.middle-content .boxes .box .two{
+    background: gold;
+}
+
+.middle-content .boxes .box .three{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box .four{
+    background: coral;
+}
+
+.middle-content .boxes .box .five{
+    background: crimson;
+}
+
+.middle-content .boxes .box .six{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box .seven{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box .eight{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box .nine{
+    background: indigo;
+}
+
+.middle-content .boxes .box .ten{
+    background: dodgerblue;
 }
