@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.header-list{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 30px;
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-image{
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +163,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Section */
+
+.about-intro{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
